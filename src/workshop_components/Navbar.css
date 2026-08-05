@@ -1,0 +1,386 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===========================
+   GLOBAL STYLES
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0B0B0B;
+    color:#fff;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+nav{
+    width:100%;
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 8%;
+
+    position:sticky;
+    top:0;
+
+    background:rgba(0,0,0,.95);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(59,130,246,.25);
+
+    z-index:1000;
+}
+
+/* Logo */
+
+nav h2{
+
+    font-size:34px;
+    color:#3B82F6;
+    font-weight:700;
+    transition:.3s;
+}
+
+nav h2:hover{
+
+    letter-spacing:2px;
+}
+
+/* Navigation */
+
+.nav-links{
+
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.nav-links a{
+
+    color:#fff;
+    font-size:17px;
+    font-weight:500;
+
+    position:relative;
+
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
+    color:#3B82F6;
+}
+
+/* Underline */
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+    height:2px;
+
+    left:0;
+    bottom:-8px;
+
+    background:#3B82F6;
+
+    transition:.3s;
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+}
+
+/* Profile */
+
+.profile-icon{
+
+    font-size:42px;
+
+    border:2px solid #3B82F6;
+
+    border-radius:50%;
+
+    padding:8px;
+
+    transition:.4s;
+
+    cursor:pointer;
+}
+
+.profile-icon:hover{
+
+    background:#3B82F6;
+
+    transform:rotate(8deg) scale(1.08);
+
+    color:white;
+
+    box-shadow:0 0 20px #3B82F6;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+
+    min-height:calc(100vh - 80px);
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:60px 8%;
+
+    background:white
+}
+
+.hero-content{
+
+    max-width:850px;
+
+    background:#fff;
+
+    color:#000;
+
+    border-radius:25px;
+
+    padding:60px;
+
+    box-shadow:
+    0 25px 60px rgba(0,0,0,.45);
+
+    transition:.4s;
+}
+
+.hero-content:hover{
+
+    transform:translateY(-8px);
+}
+
+/* Hello */
+
+.hero-content h3{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+    line-height:1.2;
+}
+
+/* Designation */
+
+.designation{
+
+    font-size:28px;
+
+    color:#3B82F6;
+
+    font-weight:600;
+
+    margin-bottom:25px;
+}
+
+/* Paragraph */
+
+.about{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#555;
+}
+
+/* Buttons */
+
+.hero-buttons{
+
+    margin-top:40px;
+
+    display:flex;
+
+    gap:20px;
+}
+
+.hero-buttons button{
+
+    padding:15px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.35s;
+}
+
+/* Primary */
+
+.primary-btn{
+
+    background:#3B82F6;
+
+    color:#fff;
+}
+
+.primary-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 30px rgba(59,130,246,.4);
+}
+
+/* Secondary */
+
+.secondary-btn{
+
+    background:#fff;
+
+    border:2px solid #3B82F6;
+
+    color:#3B82F6;
+}
+
+.secondary-btn:hover{
+
+    background:#3B82F6;
+
+    color:#fff;
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:45px;
+
+    border-top:1px solid rgba(59,130,246,.25);
+
+    background:#000;
+}
+
+footer a{
+
+    color:#fff;
+
+    transition:.3s;
+}
+
+footer a:hover{
+
+    color:#3B82F6;
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+nav{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:20px;
+}
+
+.nav-links{
+
+    margin-top:20px;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+}
+
+.hero{
+
+    padding:30px;
+}
+
+.hero-content{
+
+    padding:35px;
+
+    text-align:center;
+}
+
+.hero-content h3{
+
+    font-size:38px;
+}
+
+.designation{
+
+    font-size:22px;
+}
+
+.about{
+
+    font-size:16px;
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+}
+
+footer{
+
+    flex-direction:column;
+
+    height:auto;
+
+    padding:25px;
+
+    gap:20px;
+}
+}
