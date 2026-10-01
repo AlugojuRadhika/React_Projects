@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "json-server data.json --host 0.0.0.0 --port $PORT"
+ start": "json-server data.json --host 0.0.0.0 --port $PORT --no-static"
 },
   "keywords": [],
   "author": "",
