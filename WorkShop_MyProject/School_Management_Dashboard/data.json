@@ -1,0 +1,180 @@
+{
+  "students": [
+    {
+      "stu_id": 1,
+      "stu_name": "Jennifer",
+      "id": "LAgOzd1m-Rc"
+    },
+    {
+      "stu_id": 2,
+      "stu_name": "Michael",
+      "id": "m8BwFXFvIhs"
+    },
+    {
+      "stu_id": 3,
+      "stu_name": "Sophia",
+      "id": "p9gzozmtXDw"
+    },
+    {
+      "stu_id": 4,
+      "stu_name": "Daniel",
+      "id": "rYACuQhtdpY"
+    },
+    {
+      "stu_id": 5,
+      "stu_name": "Daniel",
+      "id": "FMnx3fKtEh4"
+    },
+    {
+      "stu_id": 6,
+      "stu_name": "Daniel",
+      "id": "aZqjhD1abEM"
+    },
+    {
+      "stu_id": 7,
+      "stu_name": "Daniel",
+      "id": "Je4EBwA-6fM"
+    },
+    {
+      "stu_id": 8,
+      "stu_name": "Daniel",
+      "id": "z7y-puduElg"
+    },
+    {
+      "stu_id": 9,
+      "stu_name": "Daniel",
+      "id": "2GHzermfeP0"
+    },
+    {
+      "stu_id": 10,
+      "stu_name": "Daniel",
+      "id": "UQ4hHTGDbD8"
+    },
+    {
+      "stu_id": 11,
+      "stu_name": "Olivia",
+      "id": "UZP4Yc3bFic"
+    },
+    {
+      "stu_id": "101",
+      "stu_name": "anu",
+      "id": "gwwE_LRUfQI"
+    },
+    {
+      "stu_id": "102",
+      "stu_name": "Bhanu",
+      "id": "Ewr397z2aJc"
+    },
+    {
+      "stu_id": "103",
+      "stu_name": "keerthi",
+      "id": "_trmtkcdEQU"
+    },
+    {
+      "stu_id": "104",
+      "stu_name": "sanju",
+      "id": "GUvRgSfCh7M"
+    },
+    {
+      "stu_id": "105",
+      "stu_name": "Hari",
+      "id": "uNuaq3Qqsxo"
+    },
+    {
+      "stu_id": "106",
+      "stu_name": "monu",
+      "id": "7GTjCvUpbUM"
+    },
+    {
+      "stu_id": "107",
+      "stu_name": "sony",
+      "id": "zA9uQ_433FU"
+    }
+  ],
+  "staff": [
+    {
+      "_id": 101,
+      "staff_name": "Robert Johnson",
+      "role": "Teacher",
+      "id": "VnAw16HdY4Q"
+    },
+    {
+      "_id": 102,
+      "staff_name": "Emma Williams",
+      "role": "Teacher",
+      "id": "j2Uu95sYDJI"
+    },
+    {
+      "_id": 103,
+      "staff_name": "James Brown",
+      "role": "Coordinator",
+      "id": "9lWGLbnK4tU"
+    },
+    {
+      "_id": 104,
+      "staff_name": "Sophia Miller",
+      "role": "Administrator",
+      "id": "0kjdtae_Tv8"
+    }
+  ],
+  "subjects": [
+    {
+      "subject_id": 201,
+      "subject_name": "Mathematics",
+      "id": "2B7W2xLUR-0"
+    },
+    {
+      "subject_id": 202,
+      "subject_name": "Physics",
+      "id": "N0mMgBqxSHg"
+    },
+    {
+      "subject_id": 203,
+      "subject_name": "Computer Science",
+      "id": "wchQszPl1yA"
+    },
+    {
+      "subject_id": 204,
+      "subject_name": "English",
+      "id": "jImBE6foqUQ"
+    },
+    {
+      "subject_id": 205,
+      "subject_name": "History",
+      "id": "qV0VvFIsXKY"
+    }
+  ],
+  "classes": [
+    {
+      "class_id": 301,
+      "class_name": "10-A",
+      "subject_id": 201,
+      "id": "mk2tv_mum0w"
+    },
+    {
+      "class_id": 302,
+      "class_name": "10-B",
+      "subject_id": 202,
+      "id": "n2erA6O5hFY"
+    },
+    {
+      "class_id": 303,
+      "class_name": "11-A",
+      "subject_id": 203,
+      "id": "sw0I7vR0mIA"
+    },
+    {
+      "class_id": 304,
+      "class_name": "11-B",
+      "subject_id": 204,
+      "id": "2tuB4sXhL_k"
+    },
+    {
+      "class_id": 305,
+      "class_name": "12-A",
+      "subject_id": 205,
+      "id": "Q3Uu3l1HjBc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
